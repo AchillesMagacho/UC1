@@ -1,21 +1,20 @@
-
-print("as operações vão de 1 a 4. 1 soma. 2 diminui. 3 multiplica e 4 dividi")
-erro=int(input("EScolha 1 operação: "))
-n1 = int(input("digite 1 numero "))
-n2 = int(input("digite o segundo numero"))
-match erro:
+print("As operações vão de 1 a 4. 1 soma. 2 diminui. 3 multiplica e 4 divide.")
+operacao = int(input("Escolha 1 operação:  "))
+n1 = int(input("Digite 1 número:  "))
+n2 = int(input("Digite o segundo número:  "))
+resultado = 0
+match operacao:
     case 1:
-        final=n1 + n2
-        print(f"o resultado é {final}")
+        resultado = n1 + n2
     case 2:
-        final2=n1 - n2
-        print(f"o resultado é {final2}")
+        resultado = n1 - n2
     case 3:
-        final3=n1 * n2
-        print(f"o resultado é {final3}")
+        resultado = n1 * n2
     case 4:
-        final4=n1/n2
-        print(f"o resultado é {final4}")
+        resultado = n1 / n2 if n2 != 0 else "Erro (divisão por zero)"
     case _:
-        print("numero desconhecido")
+     
+        resultado = "Número desconhecido"
 
+print(f"O resultado é: {resultado}")
+print(f"O resultado do commit)
