@@ -18,3 +18,4 @@ match operacao:
 
 print(f"O resultado é: {resultado}")
 print(f"O resultado do commit)
+print("print")

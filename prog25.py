@@ -6,4 +6,8 @@ elif  n1 < n2:
     print(f"O maior valor é {n2}")
 else:
     print("os valores são iguais ou incompativeis")
+<<<<<<< HEAD
     print("teste veis")
+=======
+print("teste")
+>>>>>>> 5292031018f36d3835f3c944999ff23771716331
